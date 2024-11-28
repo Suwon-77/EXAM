@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwon's Website</title>
+    <style>
+        .header{
+            height: 95vh;
+            background-image: url(meo.jpg);
+            background-position:center;
+            background-repeat: no-repeat;
+            justify-items:flex-start;
+            background-position: calc(95% - 400px);
+        }
+        .header .banner{
+            text-align:left;
+            padding: 150px;
+            color: #000;
+            margin-left: 370px;
+        }
+        .header .banner h1{
+            font-size: 50px;
+        }
+        .header .banner p{
+            font-size: 20px;
+            color: #EAB543;
+        }
+        .header .banner Button{
+            background: #EAB543;
+            padding: 20px 20px;
+        }
+        .header .navbar{
+            width: 85%;
+            background: #000;
+            margin: 0 auto;
+            padding: 25px;
+            display: flex;
+        }
+        .header .navbar .logo{
+            width:100%;
+        }
+        .header .navbar .logo img{
+            width:  100px;
+        }
+        .header .navbar .menu{
+            width: 85%;
+        }
+        .header .menu ul{
+            display: flex;
+            list-style: none;
+            justify-content: flex-start;
+        }
+        .header .menu ul li a{
+            color: #fff;
+            text-transform: uppercase;
+            margin-right: 10px;
+            text-decoration: none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="pet_mobile.png" alt="">
+            </div>
+            <div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="banner">
+            <p>Rockstar treatment for your pet.</p>
+            <h1>GROOMING WITH<br>GENTLE CARE.</h1>
+            <Button>CONTACT US</Button>
+        </div>
+    </div>
+</body>
+</html>
